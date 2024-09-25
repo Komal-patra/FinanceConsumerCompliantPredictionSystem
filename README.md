@@ -30,7 +30,23 @@ The dataset can be downloaded directly from this webpage (https://www.consumerfi
 | Complaint Id                   | It's the unique identifier for the complaint, used for tracking complaints and linking them across the records.                                                 | Int                        |
 
 
+# Creating the conda environment
 
+```
+conda create -n finance python=3.12
+```
+
+# Activate Conda environment
+
+```
+conda activate finance
+```
+
+# Install necessary libraries
+
+```
+pip install -r requirements.txt
+```
 
 
 
