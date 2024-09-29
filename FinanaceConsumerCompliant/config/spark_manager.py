@@ -1,5 +1,6 @@
 from pyspark.sql import SparkSession
 
+'''
 spark_session = SparkSession.builder.master('local[*]').appName('finance_complaint') \
     .config("spark.executor.instances", "1") \
     .config("spark.executor.memory", "6g") \
@@ -7,4 +8,7 @@ spark_session = SparkSession.builder.master('local[*]').appName('finance_complai
     .config("spark.executor.memoryOverhead", "8g") \
     .config('spark.jars.packages',"com.amazonaws:aws-java-sdk:1.7.4,org.apache.hadoop:hadoop-aws:2.7.3")\
     .getOrCreate()
+'''
 
+
+spark_session = SparkSession.builder.master('local[*]').appName('finance_complaint').getOrCreate()

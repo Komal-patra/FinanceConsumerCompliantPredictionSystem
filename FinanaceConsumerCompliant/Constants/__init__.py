@@ -1,7 +1,7 @@
 import pymongo
 import os
 import certifi
-from FinanaceConsumerCompliant.Constants import env_var
+from FinanaceConsumerCompliant.Constants.constant import env_var
 
 ca = certifi.where()
 

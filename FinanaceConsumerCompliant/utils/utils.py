@@ -1,4 +1,4 @@
-from Exception.exception import FinanceException
+from FinanaceConsumerCompliant.Exception.exception import FinanceException
 import yaml
 import sys
 import os
